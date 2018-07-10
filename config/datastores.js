@@ -15,8 +15,15 @@
 
 module.exports.datastores = {
 
+  'mysql':{adapter: 'sails-mysql',
+  host:'139.59.15.209',
+  port:8080,
+  user:'phpmyadmin',
+  password:'Harsh1859',
+  database:'DBQueryMaster',
+},
 
-  /***************************************************************************
+  /**********************s*****************************************************
   *                                                                          *
   * Your app's default datastore.                                            *
   *                                                                          *
